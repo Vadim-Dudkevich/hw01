@@ -1,0 +1,29 @@
+{
+  "name": "hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadim-Dudkevich/hw01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vadim-Dudkevich/hw01/issues"
+  },
+  "homepage": "https://github.com/Vadim-Dudkevich/hw01#readme",
+  "devDependencies": {
+    "commander": "^9.3.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2",
+    "yargs": "^17.5.1"
+  }
+}
