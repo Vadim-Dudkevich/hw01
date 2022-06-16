@@ -64,5 +64,11 @@
     "email": "mango@gmail.com",
     "phone": "322-22-22",
     "id": "648f94d5-0c1c-4619-9846-66cd33b7c46e"
+  },
+  {
+    "id": "e5a88f07-bee4-4a86-871d-cc0427dc70a3",
+    "name": "Duda",
+    "email": "duda@mail.com",
+    "phone": "888-44-000"
   }
 ]

@@ -2,9 +2,9 @@
 
 ## HW1 Node.js:
 
-[Screenshot 1](https://monosnap.com/file/uNsjTyOHUXaRcH7Egoe2OfXzF8OmBA)
+[list](https://monosnap.com/file/Z6pVT3WqSNyHbSSlr1ck9I6FFYQLYT)
 
-[Screenshot 2](https://monosnap.com/file/pwonFUOC6UHoc6RjG4umIm6TFGpHMb)
+[get, add, update, remove](https://monosnap.com/file/pwonFUOC6UHoc6RjG4umIm6TFGpHMb)
 
 <br />
 <br />

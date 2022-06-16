@@ -1,18 +1,12 @@
-// console.log('Vadim');
-
-// const yargs = require('yargs');
-// const { hideBin } = require('yargs/helpers');
-
 const { program } = require('commander');
 
-const contacts = require('./db');
-// console.log(__dirname);
+const contacts = require('./contacts');
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
     case 'list':
       const result = await contacts.listContacts();
-      console.log(result);
+      console.table(result);
       break;
 
     case 'get':
