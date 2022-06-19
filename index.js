@@ -45,20 +45,19 @@ program
 program.parse(process.argv);
 
 const argv = program.opts();
-invokeAction(argv);
-
-// const arr = hideBin(process.argv);
-// const { argv } = yargs(arr);
-// invokeAction(argv);
+invokeAction(argv).then().catch();
 
 // invokeAction({ action: 'list' });
+
 // invokeAction({ action: 'get', id: '5' });
+
 // invokeAction({
 //   action: 'add',
 //   name: 'Vadim Dukevich',
 //   email: 'duda@mail.com',
 //   phone: '(382) 556 44 645',
 // });
+
 // invokeAction({
 //   action: 'update',
 //   id: 'd4a8f762-153c-4213-86e7-6a153e30ce88',
@@ -66,6 +65,7 @@ invokeAction(argv);
 //   email: 'mango@gmail.com',
 //   phone: '322-22-22',
 // });
+
 // invokeAction({ action: 'remove', id: '45196efa-fbe2-4c7a-a3e2-8c533014eb41' });
 
 // console.log(process.argv);
